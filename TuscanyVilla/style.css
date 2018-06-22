@@ -1,0 +1,261 @@
+﻿.container {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(17, 1fr);
+    grid-template-rows: repeat(100, 50px);
+    margin: auto;
+    max-width: 1366px;
+    width: 100%;
+}
+
+/*LOGO*/
+.grid-item-1 {
+    grid-row: 1 / span 2;
+    grid-column: 1 / span 5;
+    background-color: #474E5D;
+}
+
+/*NAVBAR*/
+.grid-item-2 {
+    grid-row: 1 / span 2;
+    grid-column: 4 / span 14;
+    background-color: #474E5D;
+}
+
+/*VILLA PIC*/
+.grid-item-3 {
+    grid-row: 3 / span 8;
+    grid-column: 1 / span 13;
+    background-image: url('mainPhotos/main1.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+/*MAP PIC*/
+.grid-item-4 {
+    grid-row: 3 / span 8;
+    grid-column: 13 / span 5;
+    background-image: url('mainPhotos/main2.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+/*LOCATIONS BAR*/
+.grid-item-5 {
+    grid-row: 11 / span 3;
+    grid-column: 1 / span 17;
+    background-color: #474E5D;
+    color:white;
+    text-align:center;
+}
+
+/*LOCATION 1 TEXT*/
+.grid-item-6 {
+    grid-row: 15 / span 6;
+    grid-column: 2 / span 10;
+    background-color: white;
+    color: #65737E;
+    text-align:left;
+}
+
+/*LOCATION 1 PHOTO*/
+.grid-item-7 {
+    grid-row: 15 / span 6;
+    grid-column: 12 / span 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+/*LOCATION 2 PHOTO*/
+.grid-item-8 {
+    grid-row: 22 / span 6;
+    grid-column: 2 / span 5;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #474E5D;
+}
+
+/*LOCATION 2 TEXT*/
+.grid-item-9 {
+    grid-row: 22 / span 6;
+    grid-column: 7 / span 10;
+    background-color: #474E5D;
+}
+
+/*LOCATION 3 TEXT*/
+.grid-item-10 {
+    grid-row: 29 / span 6;
+    grid-column: 2 / span 10;
+    background-color: red;
+}
+
+/*LOCATION 3 PHOTO*/
+.grid-item-11 {
+    grid-row: 29 / span 6;
+    grid-column: 12 / span 5;
+    background-color: indianred;
+}
+
+/*AMENITIES BAR*/
+.grid-item-12 {
+    grid-row: 36 / span 3;
+    grid-column: 1 / span 17;
+    background-color: #474E5D;
+    color:white;
+    text-align:center;
+}
+
+/*RECEPTIONS CUBE*/
+.grid-item-13 {
+    grid-row: 40 / span 7;
+    grid-column: 2 / span 5;
+    background-image: url('amenityPhotos/amenityreception.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+/*VILLA FOR EVERY OCCASION CUBE*/
+.grid-item-14 {
+    grid-row: 40 / span 7;
+    grid-column: 7 / span 5;
+    background-color: white;
+    justify-content:center;
+    text-align:center;
+}
+
+/*RELAX BY THE POOL CUBE*/
+.grid-item-15 {
+    grid-row: 40 / span 7;
+    grid-column: 12 / span 5;
+    background-image: url('amenityPhotos/amenitypool.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*WHAT SETS US APART CUBE*/
+.grid-item-16 {
+    grid-row: 47 / span 7;
+    grid-column: 2 / span 5;
+    background-color: white;
+    text-align:center;
+}
+
+/*FEELS LIKE HOME CUBE*/
+.grid-item-17 {
+    grid-row: 47 / span 7;
+    grid-column: 7 / span 5;
+    background-image: url('amenityPhotos/amenitybed.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*TALK TO STAFF CUBE*/
+.grid-item-18 {
+    grid-row: 47 / span 7;
+    grid-column: 12 / span 5;
+    background-color: white;
+    text-align:center;
+}
+
+/*ENJOY THE VIEWS CUBE*/
+.grid-item-19 {
+    grid-row: 54 / span 7;
+    grid-column: 2 / span 5;
+    background-image: url('amenityPhotos/amenityview.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*BOOK YOUR VILLA CUBE*/
+.grid-item-20 {
+    grid-row: 54 / span 7;
+    grid-column: 7 / span 5;
+    background-color: white;
+    text-align:center;
+}
+
+/*PRIVATE DINING CUBE*/
+.grid-item-21 {
+    grid-row: 54 / span 7;
+    grid-column: 12 / span 5;
+    background-image: url('amenityPhotos/amenitydining.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*REVIEWS BAR*/
+.grid-item-22 {
+    grid-row: 62 / span 3;
+    grid-column: 1 / span 17;
+    background-color: #474E5D;
+    color:white;
+    text-align:center;
+}
+
+/*REVIEWS CAROUSEL*/
+.grid-item-23 {
+    grid-row: 66 / span 5;
+    grid-column: 2 / span 15;
+    background-color: ghostwhite;
+}
+
+/*CONTACT BAR*/
+.grid-item-24 {
+    grid-row: 72 / span 3;
+    grid-column: 1 / span 17;
+    background-color: #474E5D;
+    color:white;
+    text-align:center;
+}
+
+/*CONTACT US TEXT*/
+.grid-item-25 {
+    grid-row: 76 / span 3;
+    grid-column: 2 / span 6;
+    background-color: white;
+}
+
+/*CONTACT SUBMISSION FORM*/
+.grid-item-26 {
+    grid-row: 76 / span 3;
+    grid-column: 8 / span 9;
+    background-color: rebeccapurple;
+}
+
+/*SUBMIT BUTTON*/
+.grid-item-27 {
+    grid-row: 79;
+    grid-column: 14 / span 2;
+    background-color: darkseagreen;
+}
+
+/*CREATED BY BAR*/
+.grid-item-28 {
+    grid-row: 81 / span 4;
+    grid-column: 1 / span 17;
+    background-color: #474E5D;
+    color:white;
+    text-align:center;
+}
+
+/*CHECK IT OUT BUTTON*/
+.grid-item-29 {
+    width: 40%;
+    background-color: #474E5D;
+    margin:0px 120px;
+}
+
+/*CUBE BUTTONS*/
+#button {
+    background-color: #474E5D;
+    border: none;
+    color: white;
+    padding: 8px 10px; /*15px 32px;*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
