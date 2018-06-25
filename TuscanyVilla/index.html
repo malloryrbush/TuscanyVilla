@@ -4,7 +4,6 @@
     <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded|Open+Sans+Condensed:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link href="style.css" rel="stylesheet" />
 </head>
@@ -17,10 +16,10 @@
         <section class="grid-item grid-item-2">
             <ul>
         <li style="float:right">
-        <li><a href="#contact">CONTACT</a></li>
-        <li><a href="#news">REVIEWS</a></li>
+        <li><a href="#contact">LOCATIONS</a></li>
         <li><a href="#news">AMENITIES</a></li>
-        <li><a href="#home">LOCATIONS</a></li>
+        <li><a href="#news">REVIEWS</a></li>
+        <li><a href="#home">CONTACT</a></li>
 
     </ul>
         </section>
@@ -181,42 +180,51 @@
 
     <!--REVIEWS CAROUSEL-->
     <section class="grid-item grid-item-23">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-wrapper">
+                <span id="item-1"></span>
+                <span id="item-2"></span>
+                <span id="item-3"></span>
 
-        <div class="carousel-wrapper">
+                <div class="carousel-item item-1">
+                    <p><i>"I love it! I love it! I love it!"</i></p>
+                    <p>Stella, Avid Napper</p>
+                    <!--INIDCATOR DOTS-->
+                    <!--<ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>-->
+                    <a class="arrow arrow-prev" href="#item-3"></a>
+                    <a class="arrow arrow-next" href="#item-2"></a>
+                </div>
+                <div class="carousel-item item-2">
+                    <p><i>"The best hotel in Italy!"</i></p>
+                    <p>Svetlana, Italian Hotel Connoisseur</p>
+                    <!--INIDCATOR DOTS-->
+                    <!--<ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0"></li>
+                    <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>-->
+                    <a class="arrow arrow-prev" href="#item-1"></a>
+                    <a class="arrow arrow-next" href="#item-3"></a>
+                </div>
 
-            <span id="item-1"></span>
-            <span id="item-2"></span>
-            <span id="item-3"></span>
-
-            <div class="carousel-item item-1">
-                <p><i>"I love it! I love it! I love it!"</i></p>
-                <p>Stella, Avid Napper</p>
-                <a class="arrow arrow-prev" href="#item-3"></a>
-                <a class="arrow arrow-next" href="#item-2"></a>
+                <div class="carousel-item item-3">
+                    <p><i>"For sweeping views, Tuscany Villa is the one to choose"</i></p>
+                    <p>Sophie, Seussian View Snob</p>
+                    <!--INIDCATOR DOTS-->
+                    <!--<ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+                </ol>-->
+                    <a class="arrow arrow-prev" href="#item-2"></a>
+                    <a class="arrow arrow-next" href="#item-1"></a>
+                </div>
             </div>
-            <div class="carousel-item item-2">
-                <p><i>"The best hotel in Italy!"</i></p>
-                <p>Svetlana, Italian Hotel Connoisseur</p>
-                <a class="arrow arrow-prev" href="#item-1"></a>
-                <a class="arrow arrow-next" href="#item-3"></a>
             </div>
-            <div class="carousel-item item-3">
-                <p><i>"For sweeping views, Tuscany Villa is the one to choose"</i></p>
-                <p>Sophie, Seussian View Snob</p>
-                <a class="arrow arrow-prev" href="#item-2"></a>
-                <a class="arrow arrow-next" href="#item-1"></a>
-            </div>
-            <!--INIDCATOR DOTS-->
-            <ol class="carouselindicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-            <!--I cannot get indicator dots at the bottom of this carousel. It has been hours. I have tried about 10 different
-            carousels and multiple codes just for the indicators, and nothing works. Even codes for carousels that have indicators
-            already written into the code won't work. -->
-            <!--END INDICATOR DOTS-->
-        </div>
     </section>
 
     <!--CONTACT BAR-->
@@ -260,3 +268,16 @@
     </div>
 </body>
 </html>
+
+
+<!--I cannot figure out how to get the indicator dots underneath the reviews carousel. I tried a few carousels that had them built in, but
+they all only worked with images inside the carousel and not text. I found a few codes for just the indicator dots, but I still can't get
+them to work just right. The commented out <ol class="carousel-indicators"> and the .carousel-indicators style in the stylesheet were the
+closest I got to making them work, but the indicators show up in the bottom right corner instead of the center and when you go to the next 
+slide, instead of the three dots appearing next to each other, they stack on top of each other. 
+
+Also this was in the <head> tag to make the indicators kind of work but I just took them out since, you know, it didn't really work.
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
