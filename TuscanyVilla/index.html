@@ -1,7 +1,10 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded|Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link href="style.css" rel="stylesheet" />
 </head>
@@ -9,15 +12,24 @@
     <div class="container">
 
         <!--NAVBAR-->
-        <section class="grid-item grid-item-1">logo</section>
+        <section class="grid-item grid-item-1"><p>Logo</p></section>
 
-        <section class="grid-item grid-item-2">navbar</section>
+        <section class="grid-item grid-item-2">
+            <ul>
+        <li style="float:right">
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#news">REVIEWS</a></li>
+        <li><a href="#news">AMENITIES</a></li>
+        <li><a href="#home">LOCATIONS</a></li>
+
+    </ul>
+        </section>
 
         <!--MAIN PICTURES-->
         <section class="grid-item grid-item-3">
             <div class="jumbotron" id="mainPhotoJumbotron">
-                <h1>Tuscany Villa</h1>
-                <p>We specialize in relaxation</p>
+                <h1 id="tuscanyVilla">Tuscany Villa</h1>
+                <p id="caption">We specialize in relaxation</p>
             </div>
         </section>
 
@@ -36,17 +48,17 @@
             <p>
                 Consequat nisl vel pretium lectus quam id. Varius duis at consectetur lorem donec massa sapien faucibus.
                 Vel risus commodo viverra maecenas accumsan lacus vel facilisis. Adipiscing elit ut aliquam purus sit amet luctus.
-                Urna cursus eget nunc scelerisque viverra. Faucibus vitae aliquet nec ullamcorper sit. Etiam dignissim diam quis enim.
-                Orci porta non pulvinar neque laoreet suspendisse interdum. Leo vel orci porta non. Faucibus purus in massa tempor nec feugiat nisl.
+                Urna cursus eget nunc scelerisque viverra.
+                Orci porta non pulvinar neque laoreet suspendisse interdum. Faucibus purus in massa tempor nec.
             </p>
             <button type="button" id="button">Reserve now!</button>
         </section>
 
         <!--LOCATION 1 PHOTO-->
-        <section class="grid-item grid-item-7"><img src="locationPhotos/location1.jpeg" width="362" height="250" /></section>
+        <section class="grid-item grid-item-7"><img src="locationPhotos/location1.jpeg" width="362" height="250" style="width:100%"; /></section>
 
         <!--LOCATION 2 PHOTO-->
-        <section class="grid-item grid-item-8"><img src="locationPhotos/location2.jpeg" width="362" height="250" /></section>
+        <section class="grid-item grid-item-8"><img src="locationPhotos/location2.jpeg" width="362" height="250" style="width:100%"; /></section>
 
         <!--LOCATION 2 TEXT-->
         <section class="grid-item grid-item-9">
@@ -74,7 +86,7 @@
         </section>
 
         <!--LOCATION 3 PHOTO-->
-        <section class="grid-item grid-item-11"><img src="locationPhotos/location3.jpeg" width="362" height="250" /></section>
+        <section class="grid-item grid-item-11"><img src="locationPhotos/location3.jpeg" width="362" height="250" style="width:100%";/></section>
 
         <!--AMENITIES BAR-->
         <section class="grid-item grid-item-12">
@@ -97,7 +109,7 @@
             lobortis nec. Aenean erat massa, egestas vitae dui non, ultricies porta justo. Aenean eros lorem, vulputate in pharetra et,
             mollis in lectus.
         </p>
-        <!--<section class="grid-item grid-item-29">--><button type="button" id="button">Check it out!</button><!--</section>-->
+        <button type="button" id="button">Check it out!</button>
     </section>
 
     <!--RELAX BY THE POOL CUBE-->
@@ -115,7 +127,7 @@
             lobortis nec. Aenean erat massa, egestas vitae dui non, ultricies porta justo. Aenean eros lorem, vulputate in pharetra et,
             mollis in lectus.
         </p>
-        <section class="grid-item grid-item-29"><button type="button" id="button">Check it out!</button></section>
+        <button type="button" id="button">Check it out!</button>
     </section>
 
     <!--FEELS LIKE HOME CUBE-->
@@ -133,8 +145,8 @@
             lobortis nec. Aenean erat massa, egestas vitae dui non, ultricies porta justo. Aenean eros lorem, vulputate in pharetra et,
             mollis in lectus.
         </p>
-        <section class="grid-item grid-item-29"><button type="button" id="button">Check it out!</button></section>
-    </section>
+        <button type="button" id="button">Check it out!</button></section>
+    
 
     <!--ENJOY THE VIEWS CUBE-->
     <section class="grid-item grid-item-19">
@@ -151,7 +163,7 @@
             lobortis nec. Aenean erat massa, egestas vitae dui non, ultricies porta justo. Aenean eros lorem, vulputate in pharetra et,
             mollis in lectus.
         </p>
-        <section class="grid-item grid-item-29"><button type="button" id="button">Check it out!</button></section>
+        <button type="button" id="button">Check it out!</button>
     </section>
 
     <!--PRIVATE DINING CUBE-->
@@ -183,14 +195,14 @@
                 <a class="arrow arrow-next" href="#item-2"></a>
             </div>
             <div class="carousel-item item-2">
-                <p><i>"I love it! I love it! I love it!"</i></p>
-                <p>Stella, Avid Napper</p>
+                <p><i>"The best hotel in Italy!"</i></p>
+                <p>Svetlana, Italian Hotel Connoisseur</p>
                 <a class="arrow arrow-prev" href="#item-1"></a>
                 <a class="arrow arrow-next" href="#item-3"></a>
             </div>
             <div class="carousel-item item-3">
-                <p><i>"I love it!"</i></p>
-                <p>Stella, Avid Napper</p>
+                <p><i>"For sweeping views, Tuscany Villa is the one to choose"</i></p>
+                <p>Sophie, Seussian View Snob</p>
                 <a class="arrow arrow-prev" href="#item-2"></a>
                 <a class="arrow arrow-next" href="#item-1"></a>
             </div>
@@ -239,7 +251,11 @@
     </section>
 
     <!--CREATED BY BAR-->
-    <section class="grid-item grid-item-28"><p>Created by: Mallory Bush</p><p>Not at all copyrighted</p></section>
+    <section class="grid-item grid-item-27">
+        <img src="createdByIcon/finaluparrow.jpg" />
+        <br />
+        <p>Created by: Mallory Bush</p><p>Not at all copyrighted</p>
+    </section>
 
     </div>
 </body>
