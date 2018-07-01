@@ -23,8 +23,6 @@
 .grid-item-2 {
     grid-row: 1 / span 1;
     grid-column: 4 / span 14;
-    display:inline-flex;
-    flex-direction:row;
     background-color: #474E5D;
     font-family: 'Open Sans', sans-serif; 
 }
@@ -41,14 +39,10 @@ ul {
     background-color: #474E5D;
     display: inline-flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content:flex-end;
     flex-wrap: wrap;
     max-width: 1097px;
     width: 100%
-}
-
-li {
-    float: right;
 }
 
     li a {
@@ -449,22 +443,6 @@ input[type=text], select, textarea {
 .light {
     color: white;
 }
-
-/*.carousel-indicators--round li {
-    border-radius: 10px;
-    margin: 1px 3px;
-    height: 10px;
-    max-width: 10px;
-    border: 1px solid #FFF;
-    background-color: transparent;
-}
-
-.carousel-indicators .active {
-    background-color: black;
-    max-width: 12px;
-    margin: 0 3px;
-    height: 12px;
-}*/
 
 @media (max-width: 480px) {
     .arrow, .light .arrow {
